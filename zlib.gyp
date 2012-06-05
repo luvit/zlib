@@ -53,6 +53,8 @@
           'direct_dependent_settings': {
             'include_dirs': [
               '.',
+              # For contrib/minizip
+              './contrib/minizip',
             ],
           },
           'conditions': [
