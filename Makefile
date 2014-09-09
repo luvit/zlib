@@ -1,7 +1,4 @@
-ZLIBS=contrib/minizip/ioapi.o   \
-      contrib/minizip/unzip.o   \
-      contrib/minizip/zip.o     \
-      adler32.o  \
+ZLIBS=adler32.o  \
       compress.o \
       crc32.o    \
       deflate.o  \
